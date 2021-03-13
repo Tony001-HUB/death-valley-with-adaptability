@@ -1,0 +1,862 @@
+@media only screen and  (min-width: 1680px) and (max-width:  1824px) {
+
+    .about-us{
+        width: 100%;
+        height: 870px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+    }
+
+    .top-right-text-header{
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 1.5px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 17.5px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        line-height: 1.6;
+    }
+    
+    .top-right-text-small-lvl-2{
+        line-height: 1.6;
+        letter-spacing: 0.1px;
+        font-size: 17.5px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 17px;
+        line-height: 1.3;
+        letter-spacing: 1.3px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(250px, 135px);
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-240px, 140px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+
+}
+@media only screen and  (min-width: 1485px) and (max-width:  1679px){
+    .about-us{
+        width: 100%;
+        height: 860px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+    }
+
+    .top-right-text-header{
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 1.5px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 17.5px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        line-height: 1.6;
+    }
+    
+    .top-right-text-small-lvl-2{
+        line-height: 1.6;
+        letter-spacing: 0.1px;
+        font-size: 17.5px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 17px;
+        line-height: 1.3;
+        letter-spacing: 1.3px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(200px, 135px);
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-180px, 140px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+}
+@media only screen and  (min-width: 1265px) and (max-width:  1484px){
+    .about-us{
+        width: 100%;
+        height: 860px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+    }
+
+    .top-right-text-header{
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 1.5px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 17.5px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        line-height: 1.6;
+    }
+    
+    .top-right-text-small-lvl-2{
+        line-height: 1.6;
+        letter-spacing: 0.1px;
+        font-size: 17.5px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 17px;
+        line-height: 1.3;
+        letter-spacing: 1.3px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(140px, 135px);
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-120px, 140px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+}
+@media only screen and  (min-width: 1065px) and (max-width:  1264px){
+    .about-us{
+        width: 100%;
+        height: 820px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+    }
+
+    .top-right-text-header{
+        font-size: 15px;
+        line-height: 1.3;
+        letter-spacing: 1.5px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        line-height: 1.6;
+    }
+    
+    .top-right-text-small-lvl-2{
+        line-height: 1.6;
+        letter-spacing: 0.1px;
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 1.3;
+        letter-spacing: 1.3px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(110px, 115px);
+        width: 430px;
+        height: 490px;
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-110px, 120px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+}
+@media only screen and  (min-width: 850px) and (max-width:  1064px){
+    .about-us{
+        width: 100%;
+        height: 700px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+
+    .top-right-text-header{
+        font-size: 12px;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        line-height: 1.6;
+    }
+    
+    .top-right-text-small-lvl-2{
+        line-height: 1.6;
+        letter-spacing: 0.1px;
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 12px;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(100px, 105px);
+        width: 350px;
+        height: 410px;
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-100px, 110px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+}
+@media only screen and  (min-width: 660px) and (max-width:  849px){
+    .about-us{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 13px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+
+    .top-right-text-header{
+        font-size: 10px;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    
+    .top-right-text-small-lvl-2{
+        letter-spacing: 0.1px;
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(65px, 85px);
+        width: 250px;
+        height: 350px;
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-65px, 90px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+}
+@media only screen and  (min-width: 600px) and (max-width:  659px){
+    .about-us{
+        width: 100%;
+        height: 570px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 13px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+
+    .top-right-text-header{
+        font-size: 10px;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    
+    .top-right-text-small-lvl-2{
+        letter-spacing: 0.1px;
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(30px, 85px);
+        width: 250px;
+        height: 350px;
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-30px, 90px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+}
+@media only screen and  (min-width: 550px) and (max-width:  599px){
+    .about-us{
+        width: 100%;
+        height: 500px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 12px;
+        letter-spacing: 1.2px;
+    }  
+    
+    .text-font-merriweather-little{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    .top-right-text-header{
+        font-size: 7px;
+        line-height: 1px;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 7px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    
+    .top-right-text-small-lvl-2{
+        letter-spacing: 0.1px;
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 7px;
+        letter-spacing: 0.5px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(5px, 60px);
+        width: 200px;
+        height: 300px;
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-5px, 60px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 50px);
+    }
+}
+@media only screen and  (min-width: 350px) and (max-width:  549px){
+    .about-us{
+        width: 100%;
+        height: 650px;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .text-font-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 10px;
+    }  
+      
+    .text-font-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    .top-right-text-header{
+        font-size: 7px;
+        letter-spacing: 1px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .top-right-text-small{
+        font-size: 7px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+    }
+    
+    .top-right-text-small-lvl-2{
+        letter-spacing: 0.1px;
+        font-size: 10px;
+        font-family: 'Raleway', sans-serif;
+        color: rgba(0, 0, 0, 0.741);
+        margin-top: 30px;
+    }
+
+    .why-we-are-the-great{
+        margin-top: 30px;
+        font-size: 7px;
+        letter-spacing: 0.5px;
+        font-family: "Merriweather";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .image-text-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .about-us-container-image{
+        position:relative;
+        transform: translate(0px, 60px);
+        width: 200px;
+        height: 300px;
+    }
+
+    .top-right-text{
+        position:relative;
+        text-align: left;
+        transform: translate(-3px, 60px);
+    }
+
+    .about-us-container-text{
+        line-height: 1.2px;
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        transform: translate(0px, 20px);
+    }
+}
