@@ -1,5 +1,5 @@
 import featuredImgArr from './arr/featuredImgArr.js';
-import footerImgArr from '../js/Arr/footerImgArr.js'
+import footerImgArr from '../js/arr/footerImgArr.js'
 import renderFeaturedImg from './renderFeaturedImg.js';
 import renderFooterImg from './renderFooterImg.js';
 
