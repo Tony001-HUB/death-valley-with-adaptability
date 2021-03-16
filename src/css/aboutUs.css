@@ -1,6 +1,7 @@
 @media only screen and  (min-width: 1680px) and (max-width:  1824px) {
 
     .about-us{
+        display: inline-block;
         width: 100%;
         height: 870px;
         background-color: rgb(250, 250, 250);
@@ -79,6 +80,7 @@
     .about-us-container-image{
         position:relative;
         transform: translate(250px, 135px);
+        z-index: 10;
     }
 
     .top-right-text{
@@ -89,6 +91,7 @@
 
     .about-us-container-text{
         line-height: 1.2px;
+        margin-top: 50px;
         display: flex;  
         flex-direction: column;
         align-items: center;

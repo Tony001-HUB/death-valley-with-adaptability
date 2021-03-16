@@ -1,0 +1,116 @@
+#fname{
+    height: 50px;
+}
+#lname{
+    height: 40px;
+}
+
+.form{
+    height: 780px;
+    background-image: url(../images/background.jpg);
+}
+
+.form-container-img-wrapper{
+    flex-wrap: wrap;
+    display: inline-block;
+    width: 100%;
+    height: 780px;
+    z-index: 2;
+    background-image: url(../images/backgroundWrapper.jpeg);
+    opacity: 75%;
+}
+  
+.Rectangle_26_copy_2 {
+    background-color: rgb(17, 28, 39);
+    opacity: 0.71;
+    position: absolute;
+    left: 149px;
+    top: 4437px;
+    width: 614px;
+    height: 460px;
+    z-index: 120;
+  }
+  
+.form-container{
+    margin-top: 70px;
+    margin-left: 300px;
+    height: 250px;
+    width: 900px;
+    z-index: 3;
+    display: flex;
+}
+
+#fname{
+	margin-top: 30px;
+    width: 550px;
+    height: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#subject{
+    width: 550px;
+    height: 45px;
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#massage{
+    width: 550px;
+    height: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#email{
+    width: 550px;
+    height: 45px;
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container {
+    margin-top: 14%;
+    border-radius: 5px;
+    background-color: rgb(17, 28, 39);
+    height: 460px;
+    width: 614px;
+    margin-left: -150px;
+}
+
+.container-map{
+    margin-top: -441px;
+    border-radius: 5px;
+    background-color: rgb(17, 28, 39);
+    height: 460px;
+    width: 500px;
+    margin-left: 640px;
+}
+
+.btn-large{
+    font-size: 18px;
+    font-family: "Montserrat";
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    width: 245px;
+    height: 53px;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: #000;
+}
+
+.information-about-us{
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 1.6;
+    position: absolute;
+    transform: translate(20px, 13.5px);
+}
+
+.map-container{
+    margin-left: 30px;
+    margin-top: 25px;
+}

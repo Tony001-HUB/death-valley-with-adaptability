@@ -20,25 +20,31 @@
     <link rel="stylesheet" href="src/css/featuredWorks.css">
     <link rel="stylesheet" href="src/css/smallTeam.css">
     <link rel="stylesheet" href="src/css/aboutUs.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/form.css">
+    <link rel="stylesheet" href="src/css/index.css">
 </head>
 <body>
+    <div class="main-container"></div>
     <header class="grey lighten-3">
         <div class="header-container">
             <img class = "header-container-img-logo" src="./src/images/logo.png">
 
-            <div class="header-container-text">
-                <p>
+        <div class="header-container-text">
+            <p>
                 <font>
                      SAY HELLO TO  <font class="flag-text">SHOPNO!</font><br/>
                     <font class="flag-text">AGENCY</font> CORPORATE SHOPNO THEME
                 </font>
-                </p>
-            </div>
+            </p>
+        </div>
 
-            <div class="container-btn">
-              <input class="header-container-btn" type="image" src="./src/images/contactUs.png"/>
-            </div>
-            
+        <div class="container-btn">
+            <input class="header-container-btn" type="image" src="./src/images/contactUs.png"/>
+        </div>
+        <div class="container-img-juice">
+            <img class="img-juice" src="./src/images/juice.png">
+        </div>
         </div>
     </header>
     <section class="about-us">
@@ -84,15 +90,15 @@
                     <font class="text-font-montserrat">FEATURED WORKS</font> <br/>
                     <p class="text-font-merriweather-little"> LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
                 </p>
-                <div class = "popup-img-container">
-                 
-                </div>
+                
             </div>  
         </div>
-        <div class="featured-works-img-container">     
+        <div class="featured-works-img-container">
         </div>
     </section>
-    
+    <div class = "popup-img-container">
+                 
+    </div>
 
     <section class="small-team">
             <div class="small-team-container-text">
@@ -111,6 +117,77 @@
         </div>
     </section>
 
+  
+    <section class="form">
+        <div class="form-container-img-wrapper">
+            <div class = "form-container">
+                <div class="container">
+                    <form>
+                      <div class="row">
+                        <div class="col-25">
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="fname" name="firstname" placeholder="Name*" font-size="5px">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="subject" name="lastname" placeholder="Subject*" font-size="5px">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="email" name="E-mail" placeholder="E-mail*" font-size="5px">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                        </div>
+                        <div class="col-75">
+                          <textarea id="massage" name="massage" placeholder="Massage*" style="height:90px"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <a class="waves-effect waves-light btn-large">send message</a>
+                      </div>
+                    </form>
+                    <div class="container-map">
+                        <form>
+                            <div class="row">
+                                <div class="col-25">
+                                </div>
+                                <div class="col-75" style="color:white; margin-left: 10px;">
+                                    <p class="information-about-us">
+                                    Adress line 1<br>  Adress line 2<br>  Phone: +548 945645<br> Fax: +456456 54546<br><br>
+                                    WEB: www.designagency.net<br>
+                                    E-mail: info.designagency.net
+                                    </p>
+                                </div>         
+                                </div>
+                                </div>    
+                                </form>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div> 
+        <div id="map" class="map-container" style="margin-left: 305px; margin-bottom: 25px; width: 440px; height: 230px; max-width: 440px; max-height: 230px;"></div>  
+    </section>
+   
+    <footer>
+        <font class="FOLLOWUS">FOLLOW US</font>
+        <div class="footer-container">
+        </div>
+    </footer>
     <script type="module" src="src/js/index.js"></script>
+    <script type="module" src="src/js/showBigFeaturedWorksImg.js"></script>
+    <script type="module" src="src/js/renderCommentBubble.js"></script>
 </body>
 </html>

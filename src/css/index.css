@@ -1,0 +1,8 @@
+.main-container{
+    position:absolute;
+    z-index:36;
+}
+.darkening-background{
+    background: rgba(173, 172, 172, 0.8);
+    z-index:36;
+}
