@@ -12,22 +12,22 @@ const featuredImgArr = [
     {
         name: 'featured-works-img', 
         id: 3,
-        image: 'src/images/GroupOne_6.png'
+        image: 'src/images/groupOne_6.png'
     },
     {
         name: 'featured-works-img', 
         id: 4,
-        image: 'src/images/GroupOne_3.png'
+        image: 'src/images/groupOne_3.png'
     },
     {
         name: 'featured-works-img', 
         id: 5,
-        image: 'src/images/GroupOne_5.png'
+        image: 'src/images/groupOne_5.png'
     },
     {
         name: 'featured-works-img', 
         id: 6,
-        image: 'src/images/GroupOne_4.png'
+        image: 'src/images/groupOne_4.png'
     },
 ]
 
