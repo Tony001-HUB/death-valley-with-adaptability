@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin=""/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/featuredWorks.css">
     <link rel="stylesheet" href="src/css/smallTeam.css">
@@ -26,88 +27,69 @@
 </head>
 <body>
     <div class="main-container"></div>
-    <header class="grey lighten-3">
-        <div class="header-container">
-            <img class = "header-container-img-logo" src="./src/images/logo.png">
-
-        <div class="header-container-text">
-            <p>
-                <font>
-                     SAY HELLO TO  <font class="flag-text">SHOPNO!</font><br/>
-                    <font class="flag-text">AGENCY</font> CORPORATE SHOPNO THEME
-                </font>
+    <header class="header grey lighten-3">
+            <img class = "header__logo" src="./src/images/logo.png" alt="#">
+            <p class="header__text">
+                SAY HELLO TO SHOPNO!<br/>
+                AGENCY CORPORATE SHOPNO THEME
             </p>
-        </div>
-
-        <div class="container-btn">
-            <input class="header-container-btn" type="image" src="./src/images/contactUs.png"/>
-        </div>
-        <div class="container-img-juice">
-            <img class="img-juice" src="./src/images/juice.png">
-        </div>
-        </div>
+            <div class="header__btn-wrapper">
+                <a class="header__btn"><img class="header__btn-img" src="src/images/contactUs.png"></a>
+            </div>
+            <div class="header__img-wrapper">
+                <img class="header__img" src="./src/images/juice.png">
+            </div>  
     </header>
     <section class="about-us">
-        <div class="about-us-container">
-            <div class="about-us-container-text">
-                <p>
-                    <font class="text-font-montserrat">ABOUT US</font> <br/>
-                    <p class="text-font-merriweather"> LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
-                </p>
-            </div>  
-        </div>
-        <div class="image-text-container">
-            <img class="about-us-container-image img" src="src/images/computerDesk.png" alt="" /> 
-            <div class="top-right-text">
-                <p>
-                    <p class="top-right-text-header">We Actually Do amazing works</br></p>
-                    <p class="top-right-text-small">A visual approach is an approach to a runway at an airport</br> 
-                    conducted under instrument flight rules. The pilot must at</br>
-                    all times have either the airport or the preceding aircraft in</br>
-                    appoarch correct sight. conducted under instrument flight</br>
-                    rules. The pilot must at all times.</br></p>
+        <div class="about-us__text-header">
+            <h1 class="about-us__text about-us__text-montserrat">ABOUT US</h1>
+            <p class="about-us__text about-us__text-merriweather">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
+        </div>  
+        <div class="about-us__main-content">
+            <img class="about-us__image img" src="src/images/computerDesk.png" alt="" /> 
+            <div class="about-us__text-article">
+                <p class="top-right-text-header">We Actually Do amazing works</p>
+                <p class="top-right-text-small">A visual approach is an approach to a runway at an airport</br> 
+                conducted under instrument flight rules. The pilot must at</br>
+                all times have either the airport or the preceding aircraft in</br>
+                appoarch correct sight. conducted under instrument flight</br>
+                rules. The pilot must at all times.</br></p>
 
-                    <p class="top-right-text-small-lvl-2">Preceding aircraft in approach correct sight. conducted</br>
-                    under instrument flight rules.</p>
-                    <p class="why-we-are-the-great">
-                    why we are the great?
-                    </p>
-                    <p class="top-right-text-small">
-                    A visual approach is an approach to a runway at an airport</br> 
-                    conducted under instrument flight rules.<br>
-                    The preceding aircraft in appoarch correct sight.
-                    </p>
+                <p class="top-right-text-small-lvl-2">Preceding aircraft in approach correct sight. conducted</br>
+                under instrument flight rules.</p>
+                <p class="why-we-are-the-great">
+                why we are the great?
+                </p>
+                <p class="top-right-text-small">
+                A visual approach is an approach to a runway at an airport</br> 
+                conducted under instrument flight rules.<br>
+                The preceding aircraft in appoarch correct sight.
                 </p>
             </div>
         </div>
-      
     </section>
-
     <section class="featured-works">
-        <div class="featured-works-text-container">
-            <div class="about-us-container-text">
-                <p>
-                    <font class="text-font-montserrat">FEATURED WORKS</font> <br/>
-                    <p class="text-font-merriweather-little"> LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
-                </p>
-                
+        <div class="featured-works__text-container">
+            <div class="featured-works__text-header">
+                <h1 class="featured-works__text featured-works__text-montserrat">FEATURED WORKS</h1>
+                <p class="featured-works__text featured-works__text-merriweather">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
             </div>  
         </div>
-        <div class="featured-works-img-container">
+        <div class="featured-works__img-container">
+        </div>
+        <div class = "featured-works__popup-img-container">        
         </div>
     </section>
-    <div class = "popup-img-container">
-                 
-    </div>
 
     <section class="small-team">
-            <div class="small-team-container-text">
-                <p>
-                    <font class="text-font-montserrat" style="letter-spacing: 1.6px;">SMALL TEAM</font> <br/>
-                    <p class="text-font-merriweather-little"> LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
-                </p>
+        <div class="small-team__container-text">
+            <div class="small-team__text-header"></div>
+                <h1 class="small-team__text small-team__text-montserrat">SMALL TEAM</h1>
+                <p class="small-team__text small-team__text-merriweather">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
             </div>  
-        <div class = "small-team-container-img">
+        </div>
+        <!--БУДЕТ ПЕРЕДЕЛАНО ПОД uL LI-->
+        <div class = "small-team__container-img">
             <img class="small-team-img-1  popup-small-team-img team-img" src="src/images/team.png" data-name="Ira Doo">
             <img class="small-team-img-2  popup-small-team-img team-img" src="src/images/team4.png"data-name="Jim Key">
             <img class="small-team-img-3  popup-small-team-img team-img" src="src/images/team1.png"data-name="Mel Cu">
@@ -117,16 +99,51 @@
         </div>
     </section>
 
-  
-    
+    <section class="contacts">
+        <form class="contacts__action-form" action="/action_page.php">
+            <div>
+                <input class="contacts__input" type="text" name="firstname" placeholder="Name*">
+            </div>
+            <div>
+                <input class="contacts__input" type="text" name="lastname" placeholder="Subject*">
+            </div>
+            <div>
+                <input class="contacts__input" type="text" name="E-mail" placeholder="E-mail*">
+            </div>
+            <div>
+                <input class="contacts__input contacts__input-massage" type="text" name="massage" placeholder="Message*" style="padding: 0px 0px 85px 0px;">
+            </div>
+            <div>
+                <a class="waves-effect waves-light btn-large contacts__send-btn">send message</a>
+            </div>
+        </form>
+        <div class="contacts__about-us">
+            <div class="contacts__text">
+                <p> Adress line 1 </p>
+                <p> Adress line 2 </p>
+                <p> Phone: +548 945645 </p>
+                <p> Fax: +456456 54546 </p>
+                <br/>
+                <p> Web: www.designagency.net </p>
+                <p> E-mail: info@designagency.net </p>
+            </div>        
+        <div id="map" class="map"></div>     
+        </div> 
+    </section> 
    
     <footer>
-        <font class="FOLLOWUS">FOLLOW US</font>
-        <div class="footer-container">
+        <p class="footer_text">FOLLOW US</З>
+        <div class="footer_icon-container">
         </div>
     </footer>
+    
     <script type="module" src="src/js/index.js"></script>
     <script type="module" src="src/js/showBigFeaturedWorksImg.js"></script>
     <script type="module" src="src/js/renderCommentBubble.js"></script>
+    <script type="module" src="src/js/map.js"></script>
+    <script type="module" src="src/js/btnGoToContacts.js"></script>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
 </body>
 </html>

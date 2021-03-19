@@ -22,7 +22,7 @@ function createCommentBubble() {
     imgTeams.forEach((item) => {
         item.addEventListener('mouseover', () =>{
             imgClassName = item.className.split(' ')[0];
-            document.querySelector(`.small-team-container-img`).insertAdjacentHTML('beforeend', renderCommentBubble(imgClassName, item.dataset.name));
+            document.querySelector(`.small-team__container-img`).insertAdjacentHTML('beforeend', renderCommentBubble(imgClassName, item.dataset.name));
         });
     })
 

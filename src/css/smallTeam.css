@@ -1,24 +1,47 @@
-@media only screen and  (min-width: 1200px) and (max-width:  1800px) {
+@media (min-width: 1400px) {  
     .small-team{
-        height: 1350px;
+        height: 1318px;
         text-align: center;
-        background-color: rgb(253, 253, 253);
+        background-color: rgb(249, 251, 251);
     }
     
-    .small-team-container-text{
-        margin-top: 50px;
+    .small-team__container-text{
         display: inline-block;
         position: relative;
+        bottom: 30px;
+    }
+
+    .small-team__text-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+        margin-top: 124px;
+        margin-bottom: -15px;
+    }
+
+    .small-team__text-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        letter-spacing: 0.3px;
     }
     
-    .small-team-container-img{
+    .small-team__container-img{
         display: grid;
         grid-template-columns: repeat(3, 0.2fr);
         justify-content: center;
-        margin-top: 100px;
-        grid-column-gap: 50px;
-        grid-row-gap: 50px;
+        margin-top: 67px;
+        grid-column-gap: 15px;
+        grid-row-gap: 14px;
         z-index: 30;
+        margin-right: 2px;
+        cursor: pointer;
+        z-index: 37;
     }
 
     .small-team-img-2-comment{
@@ -150,27 +173,27 @@
         border-color: rgb(163, 246, 235) transparent transparent rgb(163, 246, 235);; 
     }
 
-    .small-team-container-img:hover .small-team-img-1-comment
+    .small-team__container-img:hover .small-team-img-1-comment
     {
         display: block;
     } 
-    .small-team-container-img:hover .small-team-img-2-comment
+    .small-tea__container-img:hover .small-team-img-2-comment
     {
         display: block;
     } 
-    .small-team-container-img:hover .small-team-img-3-comment
+    .small-team__container-img:hover .small-team-img-3-comment
     {
         display: block;
     } 
-    .small-team-container-img:hover .small-team-img-4-comment
+    .small-team__container-img:hover .small-team-img-4-comment
     {
         display: block;
     } 
-    .small-team-container-img:hover .small-team-img-5-comment
+    .small-team__container-img:hover .small-team-img-5-comment
     {
         display: block;
     } 
-    .small-team-container-img:hover .small-team-img-6-comment
+    .small-team__container-img:hover .small-team-img-6-comment
     {
         display: block;
     } 
@@ -192,7 +215,7 @@
         height: 16px;
     }
 }
-@media only screen and  (min-width: 1000px) and (max-width:  1199px) {
+@media only screen and  (min-width: 1000px) and (max-width:  1399px) {
     
     .small-team{
         margin-top: 590px;

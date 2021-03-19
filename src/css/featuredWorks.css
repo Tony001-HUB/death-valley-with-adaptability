@@ -1,34 +1,53 @@
-@media only screen and  (min-width: 1600px) and (max-width:  1824px) {
+@media (min-width: 1400px) {   
     .featured-works{
-        height: 1170px;
+        height: 1040px;
         text-align: center;
-        background-color: rgb(253, 253, 253);
+        background-color: rgb(255, 255, 255);
     }
     
-    .featured-works-text-container{
+    .featured-works__text-container{
         margin-top: 50px;
-        display: inline-block;
         position: relative;
-    }
+    }      
     
-    .featured-works-img-container{
+    .featured-works__img-container{
         display: grid;
         grid-template-columns: repeat(3, 0.2fr);
         justify-content: center;
-        margin-top: 100px;
-        grid-column-gap: 50px;
-        grid-row-gap: 50px;
-    
+        grid-column-gap: 15px;
+        grid-row-gap: 13px;
+        margin-top: 115px;   
+        cursor: pointer;
     }
     .popupImg{
-    width: 450px;
-    height: 450px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .featured-works__text-montserrat{
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 38px;
+        margin-top: 124px;
+        margin-bottom: -15px;
+    }
+
+    .featured-works__text-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        letter-spacing: 0.3px;
     }
 
     .image-show-featured-works{
         position: absolute; 
         width: 550px;
-        height: 450px;
+        height: 540px;
         z-index: 37;
         transform: translate(-280px, -750px);
     }
@@ -36,9 +55,12 @@
     .close{
         position: absolute;
         z-index: 37;
-        transform: translate(225px, -740px);
+        transform: translate(-30px, -815px);
+        height: 60px;
+        width: 70px;
+        border-radius: 10px;
     }
-
+      
     .popup-img-container{
         z-index: 28;
         display: flex;
@@ -48,7 +70,7 @@
     }
 
 }
-@media only screen and  (min-width: 1200px) and (max-width:  1599px) {
+@media only screen and  (min-width: 1200px) and (max-width:  1399px) {
     .featured-works{
         height: 1170px;
         text-align: center;

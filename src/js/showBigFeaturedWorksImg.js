@@ -1,7 +1,7 @@
 import renderDarkeningBackground from './darkeningBackground.js'
 
 const images = document.querySelectorAll('.popup-featured-works-img');
-const imgAlert = document.querySelector('.popup-img-container');
+const imgAlert = document.querySelector('.featured-works__popup-img-container');
 
 function showBigFeaturedWorksImage(imgSrc) {
     return `
@@ -15,10 +15,16 @@ function showBigFeaturedWorksImage(imgSrc) {
 function showBigFeaturedWorksImg() {
 
     images.forEach((item) => {
-        item.addEventListener('click', () =>{
+        item.addEventListener('click', (event) =>{
             console.log(item.src)
             renderDarkeningBackground('src/images/bigImgBackground.jpg');
             imgAlert.innerHTML = showBigFeaturedWorksImage(item.src);
+            event.preventDefault();
+            document.querySelector('.image-show-featured-works').scrollIntoView({
+            behavior: 'auto',
+            block: 'center'
+            })
+            document.body.style.overflow = "hidden";
         });
     })
 
@@ -26,6 +32,7 @@ function showBigFeaturedWorksImg() {
         document.querySelector('.image-show-featured-works').remove();
         document.querySelector('.darkening-background').remove();
         document.querySelector('.close').remove();
+        document.body.style.overflow = "visible";
     });
 }
 

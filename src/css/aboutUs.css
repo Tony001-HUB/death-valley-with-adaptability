@@ -1,13 +1,37 @@
-@media only screen and  (min-width: 1680px) and (max-width:  1824px) {
-
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {       
     .about-us{
         display: inline-block;
         width: 100%;
-        height: 870px;
-        background-color: rgb(250, 250, 250);
+        height: 985px;
+        background-color: rgb(248, 250, 250);
+    }
+      
+    .about-us__text-header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        margin-bottom: 98px;
     }
 
-    .text-font-merriweather{
+    .about-us__main-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 150px; 
+    }
+
+    .about-us__image{
+        position: relative;
+        left: 20px;
+    }
+
+    .about-us__text-merriweather{
         color: rgba(0, 0, 0, 0.62);
         text-transform: uppercase;
         font-weight: bold;
@@ -25,62 +49,54 @@
         letter-spacing: 1px;
     }
       
-    .text-font-montserrat{
+    .about-us__text-montserrat{
         letter-spacing: 1.5px;
         color: rgba(0, 0, 0, 0.902);
         font-weight: bold;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         font-size: 38px;
+        margin-top: 124px;
+        margin-bottom: -15px;
     }
 
     .top-right-text-header{
+        margin-top: -43px;
         font-size: 20px;
         line-height: 1.3;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.1px;
         font-family: "Merriweather";
         font-weight: bold;
         text-transform: uppercase;
     }
+      
     .top-right-text-small{
-        font-size: 17.5px;
+        font-size: 16px;
         font-family: 'Raleway', sans-serif;
         color: rgba(0, 0, 0, 0.741);
-        line-height: 1.6;
+        line-height: 1.75;
+        letter-spacing: 0.8px;
     }
     
     .top-right-text-small-lvl-2{
-        line-height: 1.6;
+        line-height: 1.7;
         letter-spacing: 0.1px;
         font-size: 17.5px;
         font-family: 'Raleway', sans-serif;
         color: rgba(0, 0, 0, 0.741);
-        margin-top: 30px;
+        margin-top: 29px;
+        position: relative;
+        bottom: 5px;
     }
 
     .why-we-are-the-great{
         margin-top: 30px;
         font-size: 17px;
-        line-height: 1.3;
-        letter-spacing: 1.3px;
+        line-height: 1.1;
+        letter-spacing: 1px;
         font-family: "Merriweather";
         font-weight: bold;
         text-transform: uppercase;
-    }
-
-    .image-text-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: stretch;
-        align-content: stretch;
-    }
-
-    .about-us-container-image{
-        position:relative;
-        transform: translate(250px, 135px);
-        z-index: 10;
     }
 
     .top-right-text{
@@ -89,115 +105,8 @@
         transform: translate(-240px, 140px);
     }
 
-    .about-us-container-text{
-        line-height: 1.2px;
-        margin-top: 50px;
-        display: flex;  
-        flex-direction: column;
-        align-items: center;
-        position:relative;
-        transform: translate(0px, 50px);
-    }
-
 }
-@media only screen and  (min-width: 1485px) and (max-width:  1679px){
-    .about-us{
-        width: 100%;
-        height: 860px;
-        background-color: rgb(250, 250, 250);
-    }
-
-    .text-font-merriweather{
-        color: rgba(0, 0, 0, 0.62);
-        text-transform: uppercase;
-        font-weight: bold;
-        font-family: 'Merriweather', serif;
-        font-size: 18px;
-        letter-spacing: 1.2px;
-    }  
-    
-    .text-font-merriweather-little{
-        color: rgba(0, 0, 0, 0.62);
-        text-transform: uppercase;
-        font-weight: bold;
-        font-family: 'Merriweather', serif;
-        font-size: 17px;
-        letter-spacing: 1px;
-    }
-      
-    .text-font-montserrat{
-        letter-spacing: 1.5px;
-        color: rgba(0, 0, 0, 0.902);
-        font-weight: bold;
-        text-transform: uppercase;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 38px;
-    }
-
-    .top-right-text-header{
-        font-size: 20px;
-        line-height: 1.3;
-        letter-spacing: 1.5px;
-        font-family: "Merriweather";
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    .top-right-text-small{
-        font-size: 17.5px;
-        font-family: 'Raleway', sans-serif;
-        color: rgba(0, 0, 0, 0.741);
-        line-height: 1.6;
-    }
-    
-    .top-right-text-small-lvl-2{
-        line-height: 1.6;
-        letter-spacing: 0.1px;
-        font-size: 17.5px;
-        font-family: 'Raleway', sans-serif;
-        color: rgba(0, 0, 0, 0.741);
-        margin-top: 30px;
-    }
-
-    .why-we-are-the-great{
-        margin-top: 30px;
-        font-size: 17px;
-        line-height: 1.3;
-        letter-spacing: 1.3px;
-        font-family: "Merriweather";
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    .image-text-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: stretch;
-        align-content: stretch;
-    }
-
-    .about-us-container-image{
-        position:relative;
-        transform: translate(200px, 135px);
-    }
-
-    .top-right-text{
-        position:relative;
-        text-align: left;
-        transform: translate(-180px, 140px);
-    }
-
-    .about-us-container-text{
-        line-height: 1.2px;
-        display: flex;  
-        flex-direction: column;
-        align-items: center;
-        position:relative;
-        transform: translate(0px, 50px);
-    }
-}
-@media only screen and  (min-width: 1265px) and (max-width:  1484px){
+@media only screen and  (min-width: 1265px) and (max-width:  1399px){
     .about-us{
         width: 100%;
         height: 860px;

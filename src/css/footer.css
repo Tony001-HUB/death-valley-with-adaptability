@@ -1,4 +1,4 @@
-@media only screen and  (min-width: 1200px) and (max-width:  1800px) {
+@media (min-width: 1200px) {  
     
     footer{
         height: 315px;
@@ -6,26 +6,36 @@
         background-color: rgb(44, 47, 50);
     }
 
-    .footer-container{
+    .footer_icon-container{
         display: grid;
         grid-template-columns: repeat(4, 0fr);
-        transform: translate(0px, 140px);
         justify-content: center;
+        column-gap: 5px;
+        margin-top: 100px;
+        cursor: pointer;
     }
 
-    .FOLLOWUS{
+    .footer_text{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
         align-content: center;
-        transform: translate(0px, 120px);
+        transform: translate(0px, 87px);
         color: rgba(255, 255, 255, 0.8);
         font-family: 'Raleway', sans-serif;
         font-size: 16px;
     }
 
+    .contacts__input-massage{
+        padding: 20px;
+    }
+
+    .footer-img-3:hover {
+        background: #786b59; /* Цвет фона под ссылкой */ 
+        color: #ffe; /* Цвет ссылки */ 
+    } 
 }
 @media only screen and  (min-width: 1000px) and (max-width:  1199px) {
     

@@ -3,8 +3,8 @@ import footerImgArr from '../js/arr/footerImgArr.js'
 import renderFeaturedImg from './renderFeaturedImg.js';
 import renderFooterImg from './renderFooterImg.js';
 
-const featuredWorkImgContainer = document.querySelector('.featured-works-img-container'),
-footerImgContainer = document.querySelector('.footer-container');
+const featuredWorkImgContainer = document.querySelector('.featured-works__img-container'),
+footerImgContainer = document.querySelector('.footer_icon-container');
 
 function createFeaturedWorksImg(arr) {
     let  HTMLCode = "";
