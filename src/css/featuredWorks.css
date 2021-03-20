@@ -200,3 +200,136 @@
     }
 
 }
+@media (min-width: 375px) {   
+    .featured-works{
+        height: 2420px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .featured-works__text-container{
+        margin-top: 50px;
+        position: relative;
+    }      
+    
+    .featured-works__img-container{
+        margin-top: 75px;
+    }
+    .popupImg{
+        width: 450px;
+        height: 450px;
+    }
+
+    .featured-works__text-montserrat{
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        margin-bottom: 13px;
+    }
+
+    .featured-works__text-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        letter-spacing: 0.3px;
+    }
+
+    .image-show-featured-works{
+        position: absolute;
+        width: 350px;
+        height: 340px;
+        z-index: 37;
+        transform: translate(-170px, -750px);
+    }
+
+    .close{
+        position: absolute;
+        z-index: 37;
+        transform: translate(-30px, -815px);
+        height: 60px;
+        width: 70px;
+        border-radius: 10px;
+    }
+      
+    .popup-img-container{
+        z-index: 28;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+}
+@media (min-width: 300px) and (max-width: 374px) {   
+    .featured-works{
+        height: 2080px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .featured-works__text-container{
+        margin-top: 50px;
+        position: relative;
+    }      
+    
+    .featured-works__img-container{
+        margin-top: 75px;
+    }
+    .popupImg{
+        width: 450px;
+        height: 450px;
+    }
+
+    .featured-works__text-montserrat{
+        color: rgba(0, 0, 0, 0.902);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        margin-bottom: 13px;
+    }
+
+    .featured-works__text-merriweather{
+        color: rgba(0, 0, 0, 0.62);
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        letter-spacing: 0.3px;
+    }
+
+    .image-show-featured-works{
+        position: absolute;
+        width: 300px;
+        height: 310px;
+        z-index: 37;
+        transform: translate(-140px, -750px);
+    }
+
+    .close{
+        position: absolute;
+        z-index: 37;
+        transform: translate(-30px, -815px);
+        height: 60px;
+        width: 70px;
+        border-radius: 10px;
+    }
+      
+    .popup-img-container{
+        z-index: 28;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+
+    .popup-featured-works-img {
+        width: 310px;
+        height: 320;
+    }
+}

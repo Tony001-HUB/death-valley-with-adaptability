@@ -133,3 +133,48 @@
         background-color: rgb(113, 246, 235);
     } 
 }
+@media (min-width: 300px) {  
+    
+    footer{
+        height: 180px;
+        width: 100%;
+        background-color: rgb(44, 47, 50);
+        margin-top: -18px;
+    }
+
+    .footer_icon-container{
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        justify-content: center;
+        column-gap: 8px;
+        margin-top: 65px;
+        cursor: pointer;
+    }
+
+    .footer_text{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        transform: translate(0px, 50px);
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        margin-top: 22px;
+    }
+
+    .contacts__input-massage{
+        padding: 20px;
+    }
+      
+    .footer__btn{
+        background-color: rgb(141, 141, 141);
+        width: 46px;
+        height: 40px;
+    }
+    .footer__btn:hover {
+        background-color: rgb(113, 246, 235);
+    } 
+}

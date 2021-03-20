@@ -14,7 +14,7 @@ function bindData() {
             document.querySelector(".small-team_content").insertAdjacentHTML('beforeend', `
             <li class="height-content">
             <div class="height-content">
-            <img src="${item.img}" alt="alt">
+            <img class="small-team_img" src="${item.img}" alt="alt">
             <div class="small-team_container">
             <span class="small-team_text">
                 <p class="small-team__text-merriweather-bubble">${item.name} / <span class="small-team__text-merriweather-italic">${item.position}</span><br></p>
