@@ -24,4 +24,4 @@ function createFooterImg(arr) {
 }
 
 featuredWorkImgContainer.insertAdjacentHTML('beforeend', createFeaturedWorksImg(featuredImgArr));
-footerImgContainer.insertAdjacentHTML('beforeend', createFooterImg(footerImgArr));
+//footerImgContainer.insertAdjacentHTML('beforeend', createFooterImg(footerImgArr));

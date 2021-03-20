@@ -11,7 +11,7 @@
         display: grid;
         grid-template-columns: repeat(4, 0fr);
         justify-content: center;
-        column-gap: 5px;
+        column-gap: 9px;
         margin-top: 100px;
         cursor: pointer;
     }
@@ -32,10 +32,14 @@
     .contacts__input-massage{
         padding: 20px;
     }
-
-    .footer-img-3:hover {
-        background: #786b59; /* Цвет фона под ссылкой */ 
-        color: #ffe; /* Цвет ссылки */ 
+      
+    .footer__btn{
+        background-color: rgb(141, 141, 141);
+        width: 46px;
+        height: 40px;
+    }
+    .footer__btn:hover {
+        background-color: rgb(113, 246, 235);
     } 
 }
 @media only screen and  (min-width: 1000px) and (max-width:  1199px) {

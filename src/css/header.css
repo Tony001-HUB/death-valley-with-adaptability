@@ -13,7 +13,7 @@
         margin-top: 64px;
         margin-left: 150px;
     }
-      
+
     .header__text{
         margin-left: auto;
         margin-right: auto;
@@ -35,12 +35,27 @@
         justify-content: center;
         align-items: center;
     }
-
-    .header__btn{
+      
+    .header__btn{       
+        width: 230px;
+        height: 53px;
+        border: 2px groove black;
         margin-top: 95px;
         cursor: pointer;
     }
-
+      
+    .header__btn-text {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgba(0, 0, 0, 0.749);
+        text-transform: uppercase;
+        padding: 11px 0px 0px 45px;
+        height: 50px;
+        display: inline-block;
+        letter-spacing: 1.7px;
+        font-weight: 600;
+    }
+      
     .header__img{
         height: 94px;
         margin-right: 242px;
@@ -55,6 +70,10 @@
         justify-content: flex-end;
         align-items: baseline;
         align-content: stretch;
+    }
+
+    .header__text-mark{
+        background-color: rgb(118, 244, 234);
     }
 }
 @media only screen and  (min-width: 900px) and (max-width: 1079px) {
