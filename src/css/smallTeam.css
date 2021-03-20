@@ -31,189 +31,83 @@
         letter-spacing: 0.3px;
     }
     
-    .small-team__container-img{
-        display: grid;
-        grid-template-columns: repeat(3, 0.2fr);
-        justify-content: center;
-        margin-top: 67px;
-        grid-column-gap: 15px;
-        grid-row-gap: 14px;
-        z-index: 30;
-        margin-right: 2px;
-        cursor: pointer;
-        z-index: 37;
-    }
-
-    .small-team-img-2-comment{
-        z-index: 37;
-        width: 300px;
-        height: 200px;
-        background: rgb(163, 246, 235);
-        display: none;
-        border-radius: 5%;
-        transform: translate(455px, -750px);
-    }
-
-    .small-team-img-1-comment{
-        z-index: 37;
-        width: 300px;
-        height: 200px;
-        background: rgb(163, 246, 235);
-        display: none;
-        border-radius: 5%;
-        transform: translate(35px, -750px);
-    }
-
-    .small-team-img-3-comment{
-        z-index: 37;
-        width: 300px;
-        height: 200px;
-        background: rgb(163, 246, 235);
-        display: none;
-        border-radius: 5%;
-        transform: translate(875px, -750px);
-    }
-
-    .small-team-img-4-comment{
-        z-index: 37;
-        width: 300px;
-        height: 200px;
-        background: rgb(163, 246, 235);
-        display: none;
-        border-radius: 5%;
-        transform: translate(35px, -260px);
-    }
-
-    .small-team-img-5-comment{
-        z-index: 37;
-        width: 300px;
-        height: 200px;
-        background: rgb(163, 246, 235);
-        display: none;
-        border-radius: 5%;
-        transform: translate(455px, -260px);
-    }
-
-    .small-team-img-6-comment{
-        z-index: 37;
-        width: 300px;
-        height: 200px;
-        background: rgb(163, 246, 235);
-        display: none;
-        border-radius: 5%;
-        transform: translate(875px, -260px);
+    .test{
+        height: 450px;
     }
     
-    .small-team-img-1-comment:after {
+    .small-team_content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items:center;
+    }
+    
+    .small-team_container {
+        display: none;
+    }
+    .small-team__text-merriweather {
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgba(39, 39, 39, 0.949);
+        margin-top: 30px;
+    }
+    
+    .small-team__text-merriweather-italic{
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-style:italic;
+        color: rgba(39, 39, 39, 0.3);
+    }
+    
+    .small-team__text-raleway {
+        font-size: 16px;
+        font-family: "Raleway";
+        text-align: left;
+        color: rgba(0, 0, 0, 0.8);
+    }
+      
+    .small-team_icon {
+        position: relative;
+        padding: 20px 160px 0px 0px;
+    }
+    
+    .small-team__btn {
+        width: 25px;
+        height: 25px;
+        background-color: rgb(109, 246, 235);
+        border: 0px
+    }
+    .small-team_container:after {
         transform: rotate(45deg);
-        content: ' '; 
+        content: ''; 
         position: absolute; 
-        width: 10px; 
+        width: 3px; 
         height: 10px; 
-        top: -15px;
-        right: 245px;
         border: 15px solid; 
-        border-color: rgb(163, 246, 235) transparent transparent rgb(163, 246, 235); 
+        border-color: rgb(109, 246, 235) transparent transparent rgb(109, 246, 235); 
+        margin-right: 280px;
+        margin-top: -10px;
     }
-
-    .small-team-img-2-comment:after {
-        transform: rotate(45deg);
-        content: ' '; 
-        position: absolute; 
-        width: 10px; 
-        height: 10px; 
-        top: -15px;
-        right: 245px;
-        border: 15px solid; 
-        border-color: rgb(163, 246, 235) transparent transparent rgb(163, 246, 235);
+      
+    li {
+        list-style: none;
     }
-    .small-team-img-3-comment:after {
-        transform: rotate(45deg);
-        content: ' '; 
-        position: absolute; 
-        width: 10px; 
-        height: 10px; 
-        top: -15px;
-        right: 245px;
-        border: 15px solid; 
-        border-color: rgb(163, 246, 235) transparent transparent rgb(163, 246, 235); 
-    }
-    .small-team-img-4-comment:after {
-        transform: rotate(45deg);
-        content: ' '; 
-        position: absolute; 
-        width: 10px; 
-        height: 10px; 
-        top: -15px;
-        right: 245px;
-        border: 15px solid; 
-        border-color: rgb(163, 246, 235) transparent transparent rgb(163, 246, 235); 
-    }
-    .small-team-img-5-comment:after {
-        transform: rotate(45deg);
-        content: ' '; 
-        position: absolute; 
-        width: 10px; 
-        height: 10px; 
-        top: -15px;
-        right: 245px;
-        border: 15px solid; 
-        border-color: rgb(163, 246, 235) transparent transparent rgb(163, 246, 235);; 
-    }
-
-    .small-team-img-6-comment:after {
-        transform: rotate(45deg);
-        content: ' '; 
-        position: absolute; 
-        width: 10px; 
-        height: 10px; 
-        top: -15px;
-        right: 245px;
-        border: 15px solid; 
-        border-color: rgb(163, 246, 235) transparent transparent rgb(163, 246, 235);; 
-    }
-
-    .small-team__container-img:hover .small-team-img-1-comment
-    {
-        display: block;
-    } 
-    .small-tea__container-img:hover .small-team-img-2-comment
-    {
-        display: block;
-    } 
-    .small-team__container-img:hover .small-team-img-3-comment
-    {
-        display: block;
-    } 
-    .small-team__container-img:hover .small-team-img-4-comment
-    {
-        display: block;
-    } 
-    .small-team__container-img:hover .small-team-img-5-comment
-    {
-        display: block;
-    } 
-    .small-team__container-img:hover .small-team-img-6-comment
-    {
-        display: block;
-    } 
-
-    .small-team-icon-pinter{
-        width: 16px;
-        height: 16px;
-    }
-    .small-team-icon-twiter{
-        width: 16px;
-        height: 16px;
-    }
-    .small-team-icon-facebook{
-        width: 16px;
-        height: 16px;
-    }
-    .small-team-icon-facebook-copy{
-        width: 16px;
-        height: 16px;
-    }
+    
+    li:hover .small-team_container{
+        background-color: rgb(109, 246, 235);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        width: 335px;
+        height: 241px;
+        position: relative;
+        bottom: 260px;
+        left: 20px;
+      }
 }
 @media only screen and  (min-width: 1000px) and (max-width:  1399px) {
     
