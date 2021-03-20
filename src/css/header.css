@@ -17,7 +17,7 @@
     .header__text{
         margin-left: auto;
         margin-right: auto;
-        margin-top: 190px;
+        margin-top: 192px;
         color: rgb(80, 80, 80);
         text-align: center;
         font-weight: bold;
@@ -40,7 +40,7 @@
         width: 230px;
         height: 53px;
         border: 2px groove black;
-        margin-top: 95px;
+        margin-top: 143px;
         cursor: pointer;
     }
       
@@ -49,7 +49,7 @@
         font-family: 'Montserrat', sans-serif;
         color: rgba(0, 0, 0, 0.749);
         text-transform: uppercase;
-        padding: 11px 0px 0px 45px;
+        padding: 14px 0px 0px 45px;
         height: 50px;
         display: inline-block;
         letter-spacing: 1.7px;

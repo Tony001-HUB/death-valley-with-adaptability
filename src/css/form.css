@@ -13,13 +13,13 @@
 }
   
 .contacts__send-btn{
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Montserrat";
-    letter-spacing: 1.7px;
+    letter-spacing: 2.7px;
     text-transform: uppercase;
     color: #000;
     background-color: rgb(110, 238, 228);
-    margin-top: 31px;
+    margin-top: 23px;
     width: 245px;
 }
 
@@ -35,8 +35,8 @@
     background-color: rgb(2, 22, 35, 0.71);
     width: 615px;
     height: 460px;
-    margin-top: 40px;
-    padding: 37px 33px 0px 32px;
+    margin-top: 39px;
+    padding: 33px 0px 2px 33px;
 }
 
 .contacts__about-us{
@@ -55,7 +55,8 @@
     font-size: 15px;
     font-family: "Raleway";
     color: rgba(255, 255, 255, 0.702);
-    line-height: 0.6;
-    padding: 25px 0px 65px 32px;
+    line-height: 1.6;
+    padding: 31px 0px 65px 32px;
+    margin-bottom: 9px;
 }
     }

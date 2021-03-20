@@ -12,12 +12,12 @@ function bindData() {
     getData('db.json')
         .then(data => data.person.forEach(item => { 
             document.querySelector(".small-team_content").insertAdjacentHTML('beforeend', `
-            <li class="test">
-            <div class="test">
+            <li class="height-content">
+            <div class="height-content">
             <img src="${item.img}" alt="alt">
             <div class="small-team_container">
             <span class="small-team_text">
-                <p class="small-team__text-merriweather">${item.name} / <span class="small-team__text-merriweather-italic">${item.position}</span><br></p>
+                <p class="small-team__text-merriweather-bubble">${item.name} / <span class="small-team__text-merriweather-italic">${item.position}</span><br></p>
                 <p class="small-team__text-raleway">  Lorem Ipsum is not simply is an
                 <br> action designer random text 
                 <br> It has roots in a piece</p>

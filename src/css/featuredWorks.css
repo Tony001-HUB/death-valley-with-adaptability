@@ -16,7 +16,7 @@
         justify-content: center;
         grid-column-gap: 15px;
         grid-row-gap: 13px;
-        margin-top: 115px;   
+        margin-top: 120px;
     }
     .popupImg{
         width: 450px;
@@ -31,7 +31,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 38px;
         margin-top: 124px;
-        margin-bottom: -15px;
+        margin-bottom: 10px;
     }
 
     .featured-works__text-merriweather{

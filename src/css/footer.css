@@ -11,8 +11,8 @@
         display: grid;
         grid-template-columns: repeat(4, 0fr);
         justify-content: center;
-        column-gap: 9px;
-        margin-top: 100px;
+        column-gap: 8px;
+        margin-top: 105px;
         cursor: pointer;
     }
 
@@ -27,6 +27,7 @@
         color: rgba(255, 255, 255, 0.8);
         font-family: 'Raleway', sans-serif;
         font-size: 16px;
+        margin-top: 22px;
     }
 
     .contacts__input-massage{

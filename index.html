@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/featuredWorks.css">
     <link rel="stylesheet" href="src/css/smallTeam.css">
@@ -106,7 +107,7 @@
                 <input class="contacts__input" type="text" name="E-mail" placeholder="E-mail*">
             </div>
             <div>
-                <input class="contacts__input contacts__input-massage" type="text" name="massage" placeholder="Message*" style="padding: 0px 0px 85px 0px;">
+                <input class="contacts__input contacts__input-massage" type="text" name="massage" placeholder="Message*" style="padding: 0px 0px 82px 0px;">
             </div>
             <div>
                 <a class="waves-effect waves-light btn-large contacts__send-btn">send message</a>
@@ -114,13 +115,13 @@
         </form>
         <div class="contacts__about-us">
             <div class="contacts__text">
-                <p> Adress line 1 </p>
-                <p> Adress line 2 </p>
-                <p> Phone: +548 945645 </p>
-                <p> Fax: +456456 54546 </p>
+                <p class="contacts__about-us__adress-one"> Adress line 1 </p>
+                <p class="contacts__about-us__adress-two"> Adress line 2 </p>
+                <p class="contacts__about-us__phone"> Phone: +548 945645 </p>
+                <p class="contacts__about-us__fax"> Fax: +456456 54546 </p>
                 <br/>
-                <p><a href="#"> Web: www.designagency.net </a></p>
-                <p><a href="#"> E-mail: info@designagency.net </a></p>
+                <p class="contacts__about-us__web" ><a href="#"> Web: www.designagency.net </a></p>
+                <p class="contacts__about-us__email" ><a href="#"> E-mail: info@designagency.net </a></p>
             </div>        
         <div id="map" class="map"></div>     
         </div> 
@@ -130,8 +131,8 @@
         <p class="footer_text">FOLLOW US</З>
         <div class="footer_icon-container">
             <button type="button" class="footer__btn btn-social-icon btn-outline-pinterest"><i class="fa fa-pinterest"></i></button>
+            <button type="button" class="footer__btn btn-social-icon btn-outline-twitter"><i class="fa fa-twitter"></i></button>
             <button type="button" class="footer__btn btn-social-icon btn-outline-facebook"><i class="fa fa-facebook"></i></button>
-	        <button type="button" class="footer__btn btn-social-icon btn-outline-twitter"><i class="fa fa-twitter"></i></button>
 	        <button type="button" class="footer__btn btn-social-icon btn-outline-dribbble"><i class="fa fa-dribbble"></i></button>
         </div>
     </footer>
