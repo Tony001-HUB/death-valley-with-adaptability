@@ -1,4 +1,4 @@
-@media (min-width: 1400px) {    
+@media (min-width: 1150px) {    
 .contacts{
     width: 100%;
     height: 748px;
@@ -19,7 +19,7 @@
     text-transform: uppercase;
     color: #000;
     background-color: rgb(110, 238, 228);
-    margin-top: 23px;
+    margin-top: 27px;
     width: 245px;
 }
 
@@ -59,4 +59,65 @@
     padding: 31px 0px 65px 32px;
     margin-bottom: 9px;
 }
+}
+@media (min-width: 800px) {    
+    .contacts{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        column-gap: 25px;
+        background-image: url(../images/background.png);
     }
+      
+    .contacts__send-btn{
+        font-size: 17px;
+        font-family: "Montserrat";
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+        color: #000;
+        background-color: rgb(110, 238, 228);
+        margin-top: 27px;
+        width: 245px;
+    }
+    
+    .map{
+        width: 565px;
+        height: 223px;
+        margin-top: -54px;
+        margin-left: 22px;
+        margin-right: 20px;
+    }
+    
+    .contacts__action-form{
+        background-color: rgb(2, 22, 35, 0.71);
+        width: 615px;
+        height: 460px;
+        margin-top: 39px;
+        padding: 33px 0px 2px 33px;
+    }
+    
+    .contacts__about-us{
+        background-color: rgb(2, 22, 35, 0.71);
+        width: 610px;
+        height: 461px;
+        margin-top: 40px;
+        margin-right: 4px;
+    }
+    
+    .contacts__input{
+        color:rgb(255, 255, 255);
+    }
+    
+    .contacts__text{
+        font-size: 15px;
+        font-family: "Raleway";
+        color: rgba(255, 255, 255, 0.702);
+        line-height: 1.6;
+        padding: 31px 0px 65px 32px;
+        margin-bottom: 9px;
+    }
+}
