@@ -1,4 +1,4 @@
-@media (min-width: 1150px) {    
+@media (min-width: 1150px) and (max-width: 1900px)  {    
 .contacts{
     width: 100%;
     height: 748px;
@@ -60,7 +60,7 @@
     margin-bottom: 9px;
 }
 }
-@media (min-width: 800px) {    
+@media (min-width: 800px) and (max-width: 1149px) {    
     .contacts{
         width: 100%;
         height: 1100px;
@@ -121,7 +121,7 @@
         margin-bottom: 9px;
     }
 }
-@media (min-width: 500px) {    
+@media (min-width: 500px) and (max-width: 799px) {    
     .contacts{
         width: 100%;
         height: 1100px;
@@ -182,7 +182,7 @@
         margin-bottom: 9px;
     }
 }
-@media (min-width: 300px) {    
+@media (min-width: 300px) and (max-width: 499px) {    
     .contacts{
         width: 100%;
         height: 1100px;

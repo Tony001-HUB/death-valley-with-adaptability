@@ -1,4 +1,4 @@
-@media (min-width: 1150px) {   
+@media (min-width: 1150px) and (max-width: 1900px) {   
     .featured-works{
         height: 1040px;
         text-align: center;
@@ -69,7 +69,7 @@
     }
 
 }
-@media (min-width: 800px) {   
+@media (min-width: 800px) and (max-width: 1149px) {   
     .featured-works{
         height: 1340px;
         text-align: center;
@@ -135,7 +135,7 @@
     }
 
 }
-@media (min-width: 500px) {   
+@media (min-width: 500px) and (max-width: 799px) {   
     .featured-works{
         height: 2400px;
         text-align: center;
@@ -200,7 +200,7 @@
     }
 
 }
-@media (min-width: 375px) {   
+@media (min-width: 375px) and (max-width: 499px){   
     .featured-works{
         height: 2420px;
         text-align: center;

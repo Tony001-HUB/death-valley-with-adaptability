@@ -1,4 +1,4 @@
-@media (min-width: 1150px) {       
+@media (min-width: 1150px) and (max-width: 1900px) {       
     .about-us{
         display: inline-block;
         width: 100%;
@@ -106,7 +106,7 @@
     }
 
 }
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1149px) {
     .about-us{
         display: inline-block;
         width: 100%;
@@ -210,7 +210,7 @@
         transform: translate(-240px, 140px);
     }
 }
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 799px) {
     .about-us{
         display: inline-block;
         width: 100%;
@@ -315,7 +315,7 @@
         transform: translate(-240px, 140px);
     }
 }
-@media (min-width: 375px) {
+@media (min-width: 375px) and (max-width: 499px) {
     .about-us{
         display: inline-block;
         width: 100%;
