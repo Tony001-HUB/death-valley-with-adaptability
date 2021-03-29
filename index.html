@@ -17,6 +17,7 @@
     crossorigin=""/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/header.css">
@@ -39,10 +40,11 @@
                 <a class="header__btn grey lighten-3"><span class="header__btn-text">CONTACT US</span></a>
             </div>
             <div class="header__img-wrapper">
-                <img class="header__img" src="./src/images/juice.png">
+                <img class="header__img" src="./src/images/juice.png" alt="error.png">
             </div>  
     </header>
     <section class="about-us">
+        <div class = "about-us__wrapper">
         <div class="about-us__text-header">
             <h1 class="about-us__text about-us__text-montserrat">ABOUT US</h1>
             <p class="about-us__text about-us__text-merriweather">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
@@ -51,26 +53,28 @@
             <img class="about-us__image img" src="src/images/computerDesk.png" alt="" /> 
             <div class="about-us__text-article">
                 <p class="top-right-text-header">We Actually Do amazing works</p>
-                <p class="top-right-text-small">A visual approach is an approach to a runway at an airport</br> 
-                conducted under instrument flight rules. The pilot must at</br>
-                all times have either the airport or the preceding aircraft in</br>
-                appoarch correct sight. conducted under instrument flight</br>
-                rules. The pilot must at all times.</br></p>
+                <p class="top-right-text-small">A visual approach is an approach to a runway at an airport<br> 
+                conducted under instrument flight rules. The pilot must at<br>
+                all times have either the airport or the preceding aircraft in<br>
+                appoarch correct sight. conducted under instrument flight<br>
+                rules. The pilot must at all times.<br></p>
 
-                <p class="top-right-text-small-lvl-2">Preceding aircraft in approach correct sight. conducted</br>
+                <p class="top-right-text-small-lvl-2">Preceding aircraft in approach correct sight. conducted<br>
                 under instrument flight rules.</p>
                 <p class="why-we-are-the-great">
                 why we are the great?
                 </p>
                 <p class="top-right-text-small">
-                A visual approach is an approach to a runway at an airport</br> 
+                A visual approach is an approach to a runway at an airport<br> 
                 conducted under instrument flight rules.<br>
                 The preceding aircraft in appoarch correct sight.
                 </p>
             </div>
         </div>
+    </div>
     </section>
     <section class="featured-works">
+        <div class="featured-works__wrapper">
         <div class="featured-works__text-container">
             <div class="featured-works__text-header">
                 <h1 class="featured-works__text featured-works__text-montserrat">FEATURED WORKS</h1>
@@ -81,18 +85,21 @@
         </div>
         <div class = "featured-works__popup-img-container">        
         </div>
+    </div>
     </section>
 
     <section class="small-team">
+        <div class="small-team__wrapper">
         <div class="small-team__container-text">
-            <div class="small-team__text-header"></div>
+            <div class="small-team__text-header">
                 <h1 class="small-team__text small-team__text-montserrat">SMALL TEAM</h1>
                 <p class="small-team__text small-team__text-merriweather">LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
             </div>  
-        </div>
-        <ul class="small-team_content test">
+            <ul class="small-team_content test">
 
-        </ul>
+            </ul>
+        </div>
+    </div>
     </section>
 
     <section class="contacts">
@@ -117,23 +124,31 @@
             <div class="contacts__text">
                 <p class="contacts__about-us__adress-one"> Adress line 1 </p>
                 <p class="contacts__about-us__adress-two"> Adress line 2 </p>
-                <p class="contacts__about-us__phone"> Phone: +548 945645 </p>
-                <p class="contacts__about-us__fax"> Fax: +456456 54546 </p>
-                <br/>
-                <p class="contacts__about-us__web" ><a href="#"> Web: www.designagency.net </a></p>
-                <p class="contacts__about-us__email" ><a href="#"> E-mail: info@designagency.net </a></p>
+                <p class="contacts__about-us__phone"> 
+                    <span>Phone: </span> <a href="tel:+548945645"> +548 945645  </a>
+                </p>
+                <p class="contacts__about-us__fax"> 
+                    <span>Fax: </span> <a href="tel:+45645654546"> +456456 54546  </a>
+                </p>
+                <br>
+                <p class="contacts__about-us__web" >
+                    <span>Web: </span><a href="www.designagency.net"> www.designagency.net </a>
+                </p>
+                <p class="contacts__about-us__email" >
+                    <span>E-mail: </span><a href="mailto:anton@gmail.com"> info@designagency.net </a>
+                </p>
             </div>        
         <div id="map" class="map"></div>     
         </div> 
     </section> 
    
     <footer>
-        <p class="footer_text">FOLLOW US</З>
+        <p class="footer_text">FOLLOW US</p>
         <div class="footer_icon-container">
-            <button type="button" class="footer__btn btn-social-icon btn-outline-pinterest"><i class="fa fa-pinterest"></i></button>
-            <button type="button" class="footer__btn btn-social-icon btn-outline-twitter"><i class="fa fa-twitter"></i></button>
-            <button type="button" class="footer__btn btn-social-icon btn-outline-facebook"><i class="fa fa-facebook"></i></button>
-	        <button type="button" class="footer__btn btn-social-icon btn-outline-dribbble"><i class="fa fa-dribbble"></i></button>
+            <a href="#" target="_blank"><i class="footer__btn fa fa-pinterest fa-1x"></i></a>
+            <a href="#" target="_blank"><i class="footer__btn fa fa-twitter fa-1x"></i></a>
+            <a href="#" target="_blank"><i class="footer__btn-facebook fa fa-facebook fa-1x"></i></a>
+            <a href="#" target="_blank"><i class="footer__btn fa fa-dribbble fa-1x"></i></a>
         </div>
     </footer>
     
@@ -142,8 +157,8 @@
     <script type="module" src="src/js/map.js"></script>
     <script type="module" src="src/js/btnGoToContacts.js"></script>
     <script type="module" src="src/js/renderSmallTeam.js"></script>
-        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
 </body>
 </html>

@@ -1,14 +1,70 @@
+.small-team__text-merriweather-bubble {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(39, 39, 39, 0.949);
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.small-team__text-merriweather-italic{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.3);
+}
+
+.small-team_container:after {
+    transform: rotate(45deg);
+    content: ''; 
+    position: absolute; 
+    width: 3px; 
+    height: 10px; 
+    border: 15px solid; 
+    border-color: rgb(109, 246, 235) transparent transparent rgb(109, 246, 235); 
+    margin-right: 270px;
+    margin-top: -20px;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover .small-team_container{
+    background-color: rgb(109, 246, 235);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    width: 335px;
+    height: 241px;
+    position: relative;
+    bottom: 260px;
+    left: 20px;
+    padding: 15px 30px;
+  }
+
 @media (min-width: 1150px) and (max-width: 1900px) {  
     .small-team{
-        height: 1318px;
         text-align: center;
         background-color: rgb(249, 251, 251);
+    }
+
+    .small-team__wrapper {
+        padding: 93px 135px;
+    }
+    .small-team__text-header {
+        margin-bottom: 120px;
     }
     
     .small-team__container-text{
         display: inline-block;
         position: relative;
-        bottom: 30px;
         margin-bottom: 91px;
     }
 
@@ -19,7 +75,6 @@
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         font-size: 38px;
-        margin-top: 124px;
     }
 
     .small-team__text-merriweather{
@@ -54,24 +109,6 @@
         margin-top: 10px;
     }
 
-    .small-team__text-merriweather-bubble {
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: rgba(39, 39, 39, 0.949);
-        margin-top: 35px;
-        margin-bottom: 25px;
-    }
-    
-    .small-team__text-merriweather-italic{
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-style:italic;
-        font-size: 16px;
-        color: rgba(39, 39, 39, 0.3);
-    }
-    
     .small-team__text-raleway {
         font-size: 17.5px;
         font-family: "Raleway";
@@ -88,51 +125,23 @@
         width: 25px;
         height: 25px;
         background-color: rgb(109, 246, 235);
-        border: 0px
+        border: 0px;
+        color:black;
+        cursor: pointer;
+        display: inline-block;
     }
-    .small-team_container:after {
-        transform: rotate(45deg);
-        content: ''; 
-        position: absolute; 
-        width: 3px; 
-        height: 10px; 
-        border: 15px solid; 
-        border-color: rgb(109, 246, 235) transparent transparent rgb(109, 246, 235); 
-        margin-right: 280px;
-        margin-top: -10px;
-    }
-
-    li {
-        list-style: none;
-    }
-    
-    li:hover .small-team_container{
-        background-color: rgb(109, 246, 235);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: stretch;
-        width: 335px;
-        height: 241px;
-        position: relative;
-        bottom: 260px;
-        left: 20px;
-      }
 }
 @media (min-width: 800px) and (max-width: 1149px){  
     .small-team{
-        height: 1630px;
         text-align: center;
         background-color: rgb(249, 251, 251);
     }
-    
-    .small-team__container-text{
-        display: inline-block;
-        position: relative;
-        bottom: 30px;
-        margin-bottom: 91px;
+
+    .small-team__wrapper {
+        padding: 80px 135px;
+    }
+    .small-team__text-header {
+        margin-bottom: 80px;
     }
 
     .small-team__text-montserrat{
@@ -142,7 +151,6 @@
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         font-size: 38px;
-        margin-top: 124px;
     }
 
     .small-team__text-merriweather{
@@ -171,28 +179,10 @@
     .small-team__text-merriweather {
         text-align: center;
         font-family: 'Merriweather', serif;
-        font-size: 17.9px;
+        font-size: 17px;
         font-weight: bold;
         color: rgba(39, 39, 39, 0.949);
         margin-top: 10px;
-    }
-
-    .small-team__text-merriweather-bubble {
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: rgba(39, 39, 39, 0.949);
-        margin-top: 35px;
-        margin-bottom: 25px;
-    }
-    
-    .small-team__text-merriweather-italic{
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-style:italic;
-        font-size: 16px;
-        color: rgba(39, 39, 39, 0.3);
     }
     
     .small-team__text-raleway {
@@ -211,38 +201,11 @@
         width: 25px;
         height: 25px;
         background-color: rgb(109, 246, 235);
-        border: 0px
+        border: 0px;
+        color:black;
+        cursor: pointer;
+        display: inline-block;
     }
-    .small-team_container:after {
-        transform: rotate(45deg);
-        content: ''; 
-        position: absolute; 
-        width: 3px; 
-        height: 10px; 
-        border: 15px solid; 
-        border-color: rgb(109, 246, 235) transparent transparent rgb(109, 246, 235); 
-        margin-right: 280px;
-        margin-top: -10px;
-    }
-
-    li {
-        list-style: none;
-    }
-    
-    li:hover .small-team_container{
-        background-color: rgb(109, 246, 235);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: stretch;
-        width: 335px;
-        height: 241px;
-        position: relative;
-        bottom: 260px;
-        left: 20px;
-      }
 }
 @media (min-width: 500px) and (max-width: 799px) {  
     .small-team{
@@ -299,24 +262,6 @@
         color: rgba(39, 39, 39, 0.949);
         margin-top: 10px;
     }
-
-    .small-team__text-merriweather-bubble {
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: rgba(39, 39, 39, 0.949);
-        margin-top: 35px;
-        margin-bottom: 25px;
-    }
-    
-    .small-team__text-merriweather-italic{
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-style:italic;
-        font-size: 16px;
-        color: rgba(39, 39, 39, 0.3);
-    }
     
     .small-team__text-raleway {
         font-size: 17.5px;
@@ -334,38 +279,11 @@
         width: 25px;
         height: 25px;
         background-color: rgb(109, 246, 235);
-        border: 0px
+        border: 0px;
+        color:black;
+        cursor: pointer;
+        display: inline-block;
     }
-    .small-team_container:after {
-        transform: rotate(45deg);
-        content: ''; 
-        position: absolute; 
-        width: 3px; 
-        height: 10px; 
-        border: 15px solid; 
-        border-color: rgb(109, 246, 235) transparent transparent rgb(109, 246, 235); 
-        margin-right: 280px;
-        margin-top: -10px;
-    }
-
-    li {
-        list-style: none;
-    }
-    
-    li:hover .small-team_container{
-        background-color: rgb(109, 246, 235);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: stretch;
-        width: 335px;
-        height: 241px;
-        position: relative;
-        bottom: 260px;
-        left: 20px;
-      }
 }
 @media (min-width: 375px) and (max-width: 499px){  
     .small-team{
@@ -373,12 +291,16 @@
         text-align: center;
         background-color: rgb(249, 251, 251);
     }
-    
+
     .small-team__container-text{
         display: inline-block;
         position: relative;
         bottom: 30px;
         margin-bottom: 91px;
+    }
+
+    .small-team__text-header {
+        margin-bottom: 70px;
     }
 
     .small-team__text-montserrat{
@@ -423,24 +345,6 @@
         color: rgba(39, 39, 39, 0.949);
         margin-top: 10px;
     }
-
-    .small-team__text-merriweather-bubble {
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: rgba(39, 39, 39, 0.949);
-        margin-top: 35px;
-        margin-bottom: 25px;
-    }
-    
-    .small-team__text-merriweather-italic{
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-style:italic;
-        font-size: 16px;
-        color: rgba(39, 39, 39, 0.3);
-    }
     
     .small-team__text-raleway {
         font-size: 17.5px;
@@ -458,38 +362,12 @@
         width: 25px;
         height: 25px;
         background-color: rgb(109, 246, 235);
-        border: 0px
-    }
-    .small-team_container:after {
-        transform: rotate(45deg);
-        content: ''; 
-        position: absolute; 
-        width: 3px; 
-        height: 10px; 
-        border: 15px solid; 
-        border-color: rgb(109, 246, 235) transparent transparent rgb(109, 246, 235); 
-        margin-right: 280px;
-        margin-top: -10px;
+        border: 0px;
+        color:black;
+        cursor: pointer;
+        display: inline-block;
     }
 
-    li {
-        list-style: none;
-    }
-    
-    li:hover .small-team_container{
-        background-color: rgb(109, 246, 235);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: stretch;
-        width: 335px;
-        height: 241px;
-        position: relative;
-        bottom: 260px;
-        left: 20px;
-      }
 }
 @media (min-width: 300px) and (max-width: 374px) {  
     .small-team{
@@ -547,24 +425,6 @@
         color: rgba(39, 39, 39, 0.949);
         margin-top: 10px;
     }
-
-    .small-team__text-merriweather-bubble {
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: rgba(39, 39, 39, 0.949);
-        margin-top: 35px;
-        margin-bottom: 25px;
-    }
-    
-    .small-team__text-merriweather-italic{
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        font-style:italic;
-        font-size: 16px;
-        color: rgba(39, 39, 39, 0.3);
-    }
     
     .small-team__text-raleway {
         font-size: 17.5px;
@@ -582,39 +442,13 @@
         width: 25px;
         height: 25px;
         background-color: rgb(109, 246, 235);
-        border: 0px
-    }
-    .small-team_container:after {
-        transform: rotate(45deg);
-        content: ''; 
-        position: absolute; 
-        width: 3px; 
-        height: 10px; 
-        border: 15px solid; 
-        border-color: rgb(109, 246, 235) transparent transparent rgb(109, 246, 235); 
-        margin-right: 250px;
-        margin-top: -8px;
+        border: 0px;
+        color:black;
+        cursor: pointer;
+        display: inline-block;
     }
 
-    li {
-        list-style: none;
-    }
-    
-    li:hover .small-team_container{
-        background-color: rgb(109, 246, 235);
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: stretch;
+    .small-team_img{
         width: 300px;
-        height: 200px;
-        position: relative;
-        bottom: 210px;
-      }
-
-      .small-team_img{
-          width: 300px;
-      }
+    }
 }

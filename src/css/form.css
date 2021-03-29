@@ -36,7 +36,7 @@
     width: 615px;
     height: 460px;
     margin-top: 39px;
-    padding: 33px 0px 2px 33px;
+    padding: 33px 33px;
 }
 
 .contacts__about-us{
@@ -92,12 +92,12 @@
         margin-right: 20px;
     }
     
-    .contacts__action-form{
+    .contacts__action-form {
         background-color: rgb(2, 22, 35, 0.71);
         width: 615px;
         height: 460px;
         margin-top: 39px;
-        padding: 33px 0px 2px 33px;
+        padding: 25px 45px;
     }
     
     .contacts__about-us{

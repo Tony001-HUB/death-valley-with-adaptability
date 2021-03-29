@@ -1,3 +1,27 @@
+.footer__btn-facebook {
+    background-color: rgb(138, 138, 138, 0.4);
+    width: 46px;
+    height: 40px;
+    font-size: 1.6em;
+    padding: 6px 16px;
+}
+  
+.footer__btn{
+    background-color: rgb(138, 138, 138, 0.4);
+    width: 46px;
+    height: 40px;
+    font-size: 1.6em;
+    padding: 6px 11px;
+}
+
+.footer__btn-facebook:hover {
+    background-color: #74ece2;
+} 
+
+.footer__btn:hover {
+    background-color: #74ece2;
+} 
+
 @media (min-width: 1150px) and (max-width: 1900px) {  
     
     footer{
@@ -32,16 +56,7 @@
 
     .contacts__input-massage{
         padding: 20px;
-    }
-      
-    .footer__btn{
-        background-color: rgb(141, 141, 141);
-        width: 46px;
-        height: 40px;
-    }
-    .footer__btn:hover {
-        background-color: rgb(113, 246, 235);
-    } 
+    }      
 }
 @media (min-width: 800px) and (max-width: 1149px) {  
     
@@ -78,15 +93,7 @@
     .contacts__input-massage{
         padding: 20px;
     }
-      
-    .footer__btn{
-        background-color: rgb(141, 141, 141);
-        width: 46px;
-        height: 40px;
-    }
-    .footer__btn:hover {
-        background-color: rgb(113, 246, 235);
-    } 
+
 }
 @media (min-width: 500px) and (max-width: 799px) {  
     
@@ -123,15 +130,6 @@
     .contacts__input-massage{
         padding: 20px;
     }
-      
-    .footer__btn{
-        background-color: rgb(141, 141, 141);
-        width: 46px;
-        height: 40px;
-    }
-    .footer__btn:hover {
-        background-color: rgb(113, 246, 235);
-    } 
 }
 @media (min-width: 300px) and (max-width: 499px)  {  
     
@@ -168,13 +166,5 @@
     .contacts__input-massage{
         padding: 20px;
     }
-      
-    .footer__btn{
-        background-color: rgb(141, 141, 141);
-        width: 46px;
-        height: 40px;
-    }
-    .footer__btn:hover {
-        background-color: rgb(113, 246, 235);
-    } 
 }
+  
